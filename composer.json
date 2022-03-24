@@ -1,9 +1,9 @@
 {
-    "name": "prokhorov/mentions",
-    "description": "api for work Mentions",
+    "name": "prokhorov/laravel-passport-2fa",
+    "description": "api 2fa",
     "autoload": {
         "psr-4": {
-            "Prokhorov\\Mentions\\": "src"
+            "Prokhorov\\TwoFA\\": "src"
         }
     },
     "authors": [
@@ -14,7 +14,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^7.4|^8.0",
         "bacon/bacon-qr-code": "^2.0",
         "pragmarx/google2fa-laravel": "^2.0",
         "laravel/passport": "^10.3"
