@@ -1,0 +1,33 @@
+{
+    "name": "prokhorov/mentions",
+    "description": "api for work Mentions",
+    "autoload": {
+        "psr-4": {
+            "Prokhorov\\Mentions\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anton Prokhorov",
+            "email": "prohorovanton24@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "bacon/bacon-qr-code": "^2.0",
+        "pragmarx/google2fa-laravel": "^2.0",
+        "laravel/passport": "^10.3"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "extra": {
+        "laravel": {
+            "Provider": [
+                "TwoFA\\Providers\\TwoFaAppServiceProvider",
+                "TwoFA\\Providers\\TwoFaEventServiceProvider"
+            ]
+        }
+    }
+}
