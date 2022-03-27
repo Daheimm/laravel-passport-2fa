@@ -3,7 +3,7 @@
     "description": "working with 2fa use laravel passport",
     "autoload": {
         "psr-4": {
-            "LP\\TwoFA\\": "src"
+            "LP\\TwoFA\\": "src/"
         }
     },
     "authors": [
