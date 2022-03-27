@@ -4,11 +4,13 @@ In your Users model you should add
 
            use TwoFactorAuthentication
 
+run the migrations 
 
-            php artisanvendor:publish --provider="TwoFA\Providers\TwoFaAppServiceProvider"
-            php artisanvendor:publish --provider="TwoFA\Providers\TwoFaEventServiceProvider"
+            php artisan migrate
 
-run the migrations they will add three fields to the users table,also add them to fillable
+
+they will add three fields to the users table,also add them to fillable
+
 
             'google2fa_secret',
             'google2fa_recovery_codes',
