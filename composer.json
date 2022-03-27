@@ -1,6 +1,6 @@
 {
     "name": "lp2/laravel-passport-2fa",
-    "description": "api 2fa",
+    "description": "working with 2fa use laravel passport",
     "autoload": {
         "psr-4": {
             "Prokhorov\\TwoFA\\": "src"
