@@ -25,8 +25,8 @@
     "extra": {
         "laravel": {
             "Provider": [
-                "TwoFA\\Providers\\TwoFaAppServiceProvider",
-                "TwoFA\\Providers\\TwoFaEventServiceProvider"
+                "lp2\\laravel-passport-2fa\\Providers\\TwoFaAppServiceProvider",
+                "lp2\\laravel-passport-2fa\\Providers\\TwoFaEventServiceProvider"
             ]
         }
     },
