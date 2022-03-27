@@ -2,9 +2,9 @@
 
 
 use Illuminate\Support\Facades\Route;
-use TwoFA\Http\Controllers\TwoFA\AuthQrCodeController;
-use TwoFA\Http\Controllers\TwoFA\AuthTwoFAController;
-use TwoFA\Http\Controllers\TwoFA\RecoveryCodeController;
+use LP\TwoFA\Http\Controllers\TwoFA\AuthQrCodeController;
+use LP\TwoFA\Http\Controllers\TwoFA\AuthTwoFAController;
+use LP\TwoFA\Http\Controllers\TwoFA\RecoveryCodeController;
 
 Route::middleware('auth:api')->group(function () {
 

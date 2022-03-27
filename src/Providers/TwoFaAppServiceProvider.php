@@ -1,12 +1,12 @@
 <?php
 
-namespace TwoFA\Providers;
+namespace LP\TwoFA\Providers;
 
 use Illuminate\Contracts\Cache\Repository;
 use Illuminate\Support\ServiceProvider;
 use PragmaRX\Google2FA\Google2FA;
-use TwoFA\Contracts\TwoFaAuthInterface;
-use TwoFA\Service\TwoFaAuth;
+use LP\TwoFA\Contracts\TwoFaAuthInterface;
+use LP\TwoFA\Service\TwoFaAuth;
 
 
 class TwoFaAppServiceProvider extends ServiceProvider

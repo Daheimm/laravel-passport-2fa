@@ -1,6 +1,6 @@
 <?php
 
-namespace TwoFA;
+namespace LP\TwoFA;
 
 use BaconQrCode\Renderer\Color\Rgb;
 use BaconQrCode\Renderer\Image\SvgImageBackEnd;
@@ -10,7 +10,7 @@ use BaconQrCode\Renderer\RendererStyle\RendererStyle;
 use BaconQrCode\Writer;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use TwoFA\Contracts\TwoFaAuthInterface;
+use LP\TwoFA\Contracts\TwoFaAuthInterface;
 
 trait TwoFactorAuthentication
 {

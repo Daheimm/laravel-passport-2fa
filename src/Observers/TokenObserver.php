@@ -1,12 +1,12 @@
 <?php
 
-namespace TwoFA\Observers;
+namespace LP\TwoFA\Observers;
 
 
 use App\Models\User;
 use Illuminate\Support\Facades\Validator;
 use Laravel\Passport\Token;
-use TwoFA\Contracts\TwoFaAuthInterface;
+use LP\TwoFA\Contracts\TwoFaAuthInterface;
 
 
 class TokenObserver

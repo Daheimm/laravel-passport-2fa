@@ -1,6 +1,6 @@
 <?php
 
-namespace TwoFA\Http\Controllers;
+namespace LP\TwoFA\Http\Controllers;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 

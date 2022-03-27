@@ -1,6 +1,6 @@
 <?php
 
-namespace TwoFA\Contracts;
+namespace LP\TwoFA\Contracts;
 
 use App\Models\User;
 use Illuminate\Contracts\Auth\Authenticatable;

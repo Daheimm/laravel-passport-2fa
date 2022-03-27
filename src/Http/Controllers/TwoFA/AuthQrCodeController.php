@@ -1,9 +1,9 @@
 <?php
 
-namespace TwoFA\Http\Controllers\TwoFA;
+namespace LP\TwoFA\Http\Controllers\TwoFA;
 
 
-use TwoFA\Http\Controllers\Controller;
+use LP\TwoFA\Http\Controllers\Controller;
 
 class AuthQrCodeController extends Controller
 {

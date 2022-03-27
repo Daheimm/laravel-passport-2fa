@@ -1,13 +1,13 @@
 <?php
 
-namespace TwoFA\Http\Controllers\TwoFA;
+namespace LP\TwoFA\Http\Controllers\TwoFA;
 
 
 use App\Models\User;
 use Illuminate\Http\JsonResponse;
-use TwoFA\Contracts\TwoFaAuthInterface;
-use TwoFA\Http\Controllers\Controller;
-use TwoFA\Http\Request\AuthRequest;
+use LP\TwoFA\Contracts\TwoFaAuthInterface;
+use LP\TwoFA\Http\Controllers\Controller;
+use LP\TwoFA\Http\Request\AuthRequest;
 
 class AuthTwoFAController extends Controller
 {

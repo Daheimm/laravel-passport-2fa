@@ -1,10 +1,10 @@
 <?php
 
-namespace TwoFA\Providers;
+namespace LP\TwoFA\Providers;
 
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use Laravel\Passport\Token;
-use TwoFA\Observers\TokenObserver;
+use LP\TwoFA\Observers\TokenObserver;
 
 class TwoFaEventServiceProvider extends ServiceProvider
 {

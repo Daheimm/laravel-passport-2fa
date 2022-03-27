@@ -1,6 +1,6 @@
 <?php
 
-namespace TwoFA\Http\Request;
+namespace LP\TwoFA\Http\Request;
 
 use Illuminate\Foundation\Http\FormRequest;
 
