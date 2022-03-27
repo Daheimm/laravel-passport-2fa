@@ -29,5 +29,6 @@
                 "TwoFA\\Providers\\TwoFaEventServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
