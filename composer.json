@@ -1,5 +1,5 @@
 {
-    "name": "laravel-passport-2fa",
+    "name": "lp2/laravel-passport-2fa",
     "description": "api 2fa",
     "autoload": {
         "psr-4": {
